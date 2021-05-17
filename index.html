@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sticky menu</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="top-bar">
+		<h1>The Scticky Menu</h1>
+	</div>
+	<nav>
+		<ul class="menu">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contect</a></li>
+		</ul>
+	</nav>
+<section>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quis et libero temporibus tenetur, praesentium natus, quaerat illum neque ad molestiae nostrum? Fugiat accusamus aut, cumque facere repellat, fuga eos similique unde iusto, rem labore, officia atque! Laboriosam modi sit ratione quia aliquid ullam quas ex magni dolore excepturi veritatis nisi totam, ipsa illo suscipit atque facilis consequatur aperiam voluptatibus repudiandae molestiae! Aliquam consequuntur, distinctio voluptas ex facilis labore dolorem vero fugit exercitationem sed eos obcaecati molestias possimus quia! Architecto perspiciatis a optio voluptatem dicta tenetur distinctio accusantium voluptates nemo quis quasi tempora eaque, quia magnam esse, numquam, reiciendis molestias ab placeat quibusdam ipsam? Vel, cumque? Quasi quo laudantium fugit odit repudiandae facere est voluptas at voluptate labore doloremque, eum quibusdam optio cupiditate officia nobis non nihil sed quia quis. Doloremque maiores, dicta ut sapiente odit quia laborum, quod odio. Praesentium libero laudantium necessitatibus aspernatur, voluptate nesciunt expedita porro, eveniet! Vero, officia, atque! Totam officiis tempore, eaque dolorum vel cumque earum dicta atque laborum, alias necessitatibus sint hic, officia aspernatur, distinctio maxime illum deserunt labore commodi nemo consectetur delectus dignissimos minima. Facere, totam a incidunt velit esse sed id unde distinctio dignissimos fugit officiis ullam consequatur rerum repudiandae, cum, ex?</p>
+</section>
+<section>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quis et libero temporibus tenetur, praesentium natus, quaerat illum neque ad molestiae nostrum? Fugiat accusamus aut, cumque facere repellat, fuga eos similique unde iusto, rem labore, officia atque! Laboriosam modi sit ratione quia aliquid ullam quas ex magni dolore excepturi veritatis nisi totam, ipsa illo suscipit atque facilis consequatur aperiam voluptatibus repudiandae molestiae! Aliquam consequuntur, distinctio voluptas ex facilis labore dolorem vero fugit exercitationem sed eos obcaecati molestias possimus quia! Architecto perspiciatis a optio voluptatem dicta tenetur distinctio accusantium voluptates nemo quis quasi tempora eaque, quia magnam esse, numquam, reiciendis molestias ab placeat quibusdam ipsam? Vel, cumque? Quasi quo laudantium fugit odit repudiandae facere est voluptas at voluptate labore doloremque, eum quibusdam optio cupiditate officia nobis non nihil sed quia quis. Doloremque maiores, dicta ut sapiente odit quia laborum, quod odio. Praesentium libero laudantium necessitatibus aspernatur, voluptate nesciunt expedita porro, eveniet! Vero, officia, atque! Totam officiis tempore, eaque dolorum vel cumque earum dicta atque laborum, alias necessitatibus sint hic, officia aspernatur, distinctio maxime illum deserunt labore commodi nemo consectetur delectus dignissimos minima. Facere, totam a incidunt velit esse sed id unde distinctio dignissimos fugit officiis ullam consequatur rerum repudiandae, cum, ex?</p>
+</section>
+<section></section>
+<section></section>
+<script src="jquery.js"></script>
+<script>
+	$(window).scroll(function(){
+		if($(this).scrollTop()>140){
+			$('.menu').addClass("sticky");
+		}
+		else{
+			$('.menu').removeClass("sticky");
+		}
+	});
+</script>
+</body>
+</html>

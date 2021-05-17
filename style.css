@@ -1,0 +1,37 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+.top-bar{
+	height: 80px;
+	background: #262626;
+	text-align: center;
+}
+.top-bar h1{
+	color: #fff;
+	line-height: 80px;
+}
+.menu{
+	background: #f00;
+	display: flex;
+}
+.menu li{
+	list-style: none;
+
+}
+.menu li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 20px;
+	display: block;
+}
+section{
+	height: 300px;
+}
+.sticky{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
